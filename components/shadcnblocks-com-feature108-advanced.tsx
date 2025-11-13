@@ -43,6 +43,11 @@ const Feature108Advanced = ({
               gap: 80px;
             }
           }
+          @media (min-width: 1024px) {
+            .tab-container {
+              gap: 96px;
+            }
+          }
         `}</style>
         <div
           className="tab-container w-full flex flex-col items-center justify-center sm:flex-row"
