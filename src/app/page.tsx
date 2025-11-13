@@ -11,6 +11,7 @@ import { ScrollToTop } from "@/components/scroll-to-top";
 import PromoButton from "@/components/promo-button";
 import DownloadButton from "@/components/tab-contents/tab1/download-button";
 import Footer from "@/components/footer";
+import Faq12 from "@/components/faq-12";
 
 export default function Home() {
   return (
@@ -137,6 +138,10 @@ export default function Home() {
       </div>
       <div className="flex justify-center items-center py-12">
         <DownloadButton />
+      </div>
+      {/* FAQ */}
+      <div className="py-4">
+        <Faq12 />
       </div>
         </div>
       </div>
