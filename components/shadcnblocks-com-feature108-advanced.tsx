@@ -45,12 +45,16 @@ const Feature108Advanced = ({
           }
           @media (min-width: 1024px) {
             .tab-container {
-              gap: 96px;
+              /* Desktop: space-around for even outer/inner spacing */
+              justify-content: space-around !important;
+              gap: 0 !important;
+              max-width: 1280px;
+              margin: 0 auto;
             }
           }
         `}</style>
         <div
-          className="tab-container w-full flex flex-col items-center justify-center sm:flex-row"
+          className="tab-container w-full flex flex-col items-center justify-center sm:flex-row lg:justify-around lg:gap-0 lg:max-w-[1280px] lg:mx-auto"
         >
           {tabs.map((tab, index) => {
             // 根據 index 設定不同的顏色
