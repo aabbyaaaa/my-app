@@ -1,0 +1,120 @@
+import HeroSection02 from "@/components/tab-contents/tab2/hero-section-02";
+import { FeatureWithAdvantages } from "@/components/tab-contents/tab2/feature-with-advantages";
+import ProductSpecsTable, { type Product } from "@/components/tab-contents/tab2/product-specs-table";
+import ProductMiniCard from "@/components/tab-contents/tab2/product-mini-card";
+
+export function Tab2Content() {
+  // 單參數產品資料
+  const singleParamProducts: Product[] = [
+    {
+      name: "DPH10",
+      model: "DPH10",
+      partNumber: "AWE-4090010100",
+      imageUrl: "https://dgs.com.tw/pic/00/01/27/74-9e0227ef00b35434-w600h600.jpg",
+      productUrl: "https://dgs.com.tw/product/headCode/AWE-4090010100",
+      specs: { phMv: true, orp: true, cond: false, do: false }
+    },
+    {
+      name: "DORP10",
+      model: "DORP10",
+      partNumber: "AWE-4090010101",
+      imageUrl: "https://dgs.com.tw/pic/00/01/37/97-e1f59ccf3adfc9ad.jpg",
+      productUrl: "https://dgs.com.tw/product/headCode/AWE-4090010101",
+      specs: { phMv: false, orp: true, cond: false, do: false }
+    },
+    {
+      name: "DEC10",
+      model: "DEC10",
+      partNumber: "AWE-4090010102",
+      imageUrl: "https://dgs.com.tw/pic/00/01/27/76-436510d51541ec54-w600h600.jpg",
+      productUrl: "https://dgs.com.tw/product/headCode/AWE-4090010102",
+      specs: { phMv: false, orp: false, cond: true, do: false }
+    },
+    {
+      name: "DDO10",
+      model: "DDO10",
+      modelSub: "極譜式電極",
+      partNumber: "AWE-4090010103",
+      imageUrl: "https://dgs.com.tw/pic/00/01/27/78-4b0196207a537847-w600h600.jpg",
+      productUrl: "https://dgs.com.tw/product/headCode/AWE-4090010103",
+      specs: { phMv: false, orp: false, cond: false, do: true }
+    },
+    {
+      name: "DDOPRO10",
+      model: "DDOPRO10",
+      modelSub: "光學式電極",
+      partNumber: "AWE-4090010104",
+      imageUrl: "https://dgs.com.tw/pic/00/01/27/80-19ecc7a6ffaec6fd-w600h600.jpg",
+      productUrl: "https://dgs.com.tw/product/headCode/AWE-4090010104",
+      specs: { phMv: false, orp: false, cond: false, do: true }
+    }
+  ];
+
+  // 多參數產品資料
+  const multiParamProducts: Product[] = [
+    {
+      name: "DPC10",
+      model: "DPC10",
+      partNumber: "AWE-4090010105",
+      imageUrl: "https://dgs.com.tw/pic/00/01/27/83-4c34520177003f22-w600h600.jpg",
+      productUrl: "https://dgs.com.tw/product/headCode/AWE-4090010105",
+      specs: { phMv: true, orp: true, cond: true, do: false }
+    },
+    {
+      name: "DPD10",
+      model: "DPD10",
+      partNumber: "AWE-4090010106",
+      imageUrl: "https://dgs.com.tw/pic/00/01/37/93-82fecf3587987e2f.jpg",
+      productUrl: "https://dgs.com.tw/product/headCode/AWE-4090010106",
+      specs: { phMv: true, orp: true, cond: false, do: true }
+    },
+    {
+      name: "DCD10",
+      model: "DCD10",
+      partNumber: "AWE-4090010107",
+      imageUrl: "https://dgs.com.tw/pic/00/01/37/94-5eae0e9917aa2255.jpg",
+      productUrl: "https://dgs.com.tw/product/headCode/AWE-4090010107",
+      specs: { phMv: false, orp: false, cond: true, do: true }
+    },
+    {
+      name: "DPO10",
+      model: "DPO10",
+      partNumber: "AWE-4090010108",
+      imageUrl: "https://dgs.com.tw/pic/00/01/37/95-8edaf58343e9445b.jpg",
+      productUrl: "https://dgs.com.tw/product/headCode/AWE-4090010108",
+      specs: { phMv: true, orp: true, cond: false, do: false }
+    },
+    {
+      name: "DPCD10",
+      model: "DPCD10",
+      partNumber: "AWE-4090010109",
+      imageUrl: "https://dgs.com.tw/pic/00/01/37/96-1a0d55c1d7593863.jpg",
+      productUrl: "https://dgs.com.tw/product/headCode/AWE-4090010109",
+      specs: { phMv: true, orp: true, cond: true, do: true }
+    }
+  ];
+
+  return (
+    <div className="w-full">
+      <HeroSection02 />
+      <FeatureWithAdvantages />
+
+      {/* 單參數產品表格 */}
+      <ProductSpecsTable
+        title="單參數"
+        subtitle="掌上型 水質檢測設備"
+        description="專業檢測，精準穩定更可靠"
+        products={singleParamProducts}
+      />
+
+      {/* 多參數產品表格 */}
+      <ProductSpecsTable
+        title="多參數"
+        subtitle="掌上型 水質檢測設備"
+        description="多合一分析，滿足全方位水質需求"
+        products={multiParamProducts}
+      />
+
+    </div>
+  );
+}

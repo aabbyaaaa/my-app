@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx shadcn@latest add:*)",
+      "Bash(timeout /t 5 /nobreak)",
+      "Bash(npm install:*)",
+      "Bash(npm run dev:*)",
+      "Bash(if exist .next rmdir /s /q .next)",
+      "Bash(netstat:*)",
+      "Bash(findstr:*)",
+      "Bash(tasklist:*)",
+      "Bash(taskkill:*)",
+      "Read(//tmp/**)",
+      "Bash(dir:*)",
+      "Bash(git clean:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
