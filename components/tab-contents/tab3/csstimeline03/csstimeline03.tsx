@@ -9,9 +9,9 @@ const Csstimeline03: React.FC = () => {
 
   return (
     <div className={styles.root}>
-      <h2 className={styles.title}>5 步驟搞懂桌上型水質檢測設備：校準 → 測量 → 記錄 → 匯出（實驗室標準流程）</h2>
+      <h2 className={styles.title}>這樣用最準！筆型水質檢測儀 5 步驟完整教學</h2>
       <p className={styles.note}>
-        本篇適用於實驗室日常水質測量，內容涵蓋儀器安裝、pH 標準液校準、<strong>自動穩定功能</strong>、<strong>Auto timing</strong> 記錄器的間隔設定，以及隨身碟/PC 的資料導出。
+        若你想確保水質量測結果更穩定，本篇教你如何依循五大步驽完成完整操作，包括儀器啟動、模式切換、三點 pH 校準、手動/自動鎖定讀數，以及 DPC1+ 系列的藍牙連線使用技巧。非常適合實驗室、戶外採樣與水質管理使用者。
       </p>
       <ul className={styles.timeline}>
         <li className="work">

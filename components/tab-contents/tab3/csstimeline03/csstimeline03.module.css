@@ -5,7 +5,7 @@
   font-size: 100%;
   color: #2E3458;
   background: #D2C85E;
-  margin-top:40px;
+  margin-top:100px;
   border-radius:20px;
 }
 
@@ -245,6 +245,10 @@
 }
 .note {
   font-size: 0.85em;
+}
+.root {
+  font-size: 0.85em;
+    margin-top:40px;
 }
 
 }

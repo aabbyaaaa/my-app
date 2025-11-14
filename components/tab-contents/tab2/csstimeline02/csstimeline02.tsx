@@ -9,9 +9,9 @@ const Csstimeline02: React.FC = () => {
 
   return (
     <div className={styles.root}>
-      <h2 className={styles.title}>一篇看懂掌上型水質檢測設備：5 步驟完成啟動、校準、量測與資料記錄</h2>
+      <h2 className={styles.title}>掌上型水質檢測儀怎麼用？5 大步驟從啟動到高階解析度調整一次掌握</h2>
       <p className={styles.note}>
-        使用最直觀的五步驟教你快速上手掌上型水質檢測儀，包括探頭確認、啟動儀器、pH 校準流程、穩定讀數鎖定及智能記錄器設定。最後補充 Type-C 充電技巧與高解析度模式，非常適合初學者或臨時現場量測使用。
+        從儀器開機、切換測量模式、執行多點 pH 校準，到現場測量數據鎖定與定時記錄器啟用，全流程簡單明瞭。文章也會說明 Type-C 充電方式與 0.001 解析度的 pH 高精度模式，是戶外採樣與環境監測的最佳教學指南。
       </p>
       <ul className={styles.timeline}>
         <li className="work">
@@ -24,16 +24,16 @@ const Csstimeline02: React.FC = () => {
           />
           <div className={styles.relative}>
             <label className={styles.label} htmlFor={`work5-${uid}`}>
-              儀器設置與探頭連接
+              啟動掌上型水質檢測儀與選擇測量參數
             </label>
             <span className={styles.date}>步驟 1</span>
             <span className={styles.circle}></span>
           </div>
           <div className={styles.content}>
             <p>
-              1. 連接電源： 將電源供應器連接至儀器（電源供應規格為 DC 12V）。<br />
-              2. 連接探頭： 將玻璃複合 pH 探頭（如 DPH-G）和不鏽鋼溫度探頭（DTEMP）連接到儀器後方。<br />
-              3. 準備配件： 對於觸控螢幕機型，建議使用隨附的磁力攪拌器和靈活探頭支架進行測量。
+              1、確認探頭（如 BNC 探頭、溫度/電導度探頭）已正確連接。<br />
+              2、長按水質檢測儀上的電源鍵啟動設備。<br />
+              3、使用參數選擇鍵切換至您所需的測量模式（如 pH、電導度或 DO）。
             </p>
           </div>
         </li>
@@ -54,11 +54,9 @@ const Csstimeline02: React.FC = () => {
           </div>
           <div className={styles.content}>
             <p>
-              1. 進入校準模式： 透過儀器的使用者介面或按鍵進入校準（CAL）功能。<br />
-              2. 多點校準： DLAB 儀器支援 1~5點的 pH 自動校準(觸控型), 或1~3點(標準型)。選擇您所需的校準點數。<br />
-              3. 依序校準： 將 pH 探頭依序浸入標準緩衝溶液中（例如 pH 4.00/7.00/10.01）。<br />
-              4. 確認儲存： 儀器會自動等待讀數穩定；一旦穩定，按下確認鍵或螢幕按鈕，儲存該校準點。<br />
-              提示： 儀器具備<strong>自動溫度補償（ATC）</strong>功能，能自動校正溫度對 pH 測量的影響。校準完成後，您可開始測量水樣，並利用智能功能確保數據可靠。
+              1、按下 CAL 鍵進入校準模式。<br />
+              2、水質檢測儀支援 1~3 點自動校準。請依序將探頭浸入標準緩衝溶液中。<br />
+              3、等待讀數穩定後，按下 Start/Enter 鍵確認並儲存校準點。
             </p>
           </div>
         </li>
@@ -79,9 +77,9 @@ const Csstimeline02: React.FC = () => {
           </div>
           <div className={styles.content}>
             <p>
-              1. 開始測量： 將探頭浸入待測水樣中，若使用觸控螢幕機型，可實現 pH/Cond/DO 同時顯示。<br />
-              2. 等待穩定： 儀器會提供<strong>自動讀數穩定</strong>指示，請等待指示出現，確保數據穩定。<br />
-              3. 記錄讀數： 讀數穩定後，即可記錄或將其納入數據記錄器中。
+              1、將探頭浸入待測水樣中，水質檢測儀會開始測量。<br />
+              2、讀數穩定後，按下數據鎖定鍵，即可手動鎖定當前的測量數據。<br />
+              3、數據鎖定有助於在環境波動時，精準記錄數值。
             </p>
           </div>
         </li>
@@ -95,17 +93,16 @@ const Csstimeline02: React.FC = () => {
           />
           <div className={styles.relative}>
             <label className={styles.label} htmlFor={`work2-${uid}`}>
-              啟用定時數據記錄器
+              啟用智能定時數據記錄
             </label>
             <span className={styles.date}>步驟 4</span>
             <span className={styles.circle}></span>
           </div>
           <div className={styles.content}>
             <p>
-              1. 進入設定： 透過圖形和文字的使用者介面，進入智能功能選單或參數設定。<br />
-              2. 啟用記錄器： 選擇並開啟 <strong>Auto. timing data logger（定時數據記錄器）</strong>功能。<br />
-              3. 設定間隔： 根據您的需求設定記錄間隔，儀器將按時自動儲存數據，包括參數、值、溫度、日期和時間。<br />
-              儲存容量： 觸控螢幕系列儀器可儲存 500 組讀數/參數；標準型系列儀器可儲存 450 組讀數。
+              1、水質檢測儀具備智能功能，包含自動定時數據記錄器 (Auto. timing data logger)。<br />
+              2、進入參數設定，啟用此功能並設定記錄間隔。<br />
+              3、之後可透過特定按鍵查看儲存的數據（包括編號、參數、數值、日期和時間）。<br />
             </p>
           </div>
         </li>
@@ -119,16 +116,15 @@ const Csstimeline02: React.FC = () => {
           />
           <div className={styles.relative}>
             <label className={styles.label} htmlFor={`work1-${uid}`}>
-              將數據導出至外部設備
+              水質檢測儀充電與進階解析度調整
             </label>
             <span className={styles.date}>步驟 5</span>
             <span className={styles.circle}></span>
           </div>
           <div className={styles.content}>
             <p>
-              1. 選擇導出介質： 進入儀器的數據管理或導出菜單。<br />
-              2. 數據傳輸： 您可以選擇將數據導出至 <strong>Flash disk（隨身碟）</strong>或透過 PC cable 連接至電腦。<br />
-              3. 選配印表機： DLAB 儀器亦支援連接<strong>無線印表機（Wireless printer）</strong>（選配）進行即時列印報告。
+              1、水質檢測儀使用可充電鋰電池。請透過 Type-C 充電插座充電，此規格符合歐洲新規範要求。<br />
+              2、進階提示： 在 pH 模式下，長按參數設定鍵可將 pH 解析度調整為 0.1/0.01/0.001。<br />
             </p>
           </div>
         </li>
