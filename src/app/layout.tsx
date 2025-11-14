@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://dgs.com.tw"),
   title: "DLAB智慧水質檢測系列｜德記儀器 — 實驗室到現場一次搞定",
   description:
-    "DLAB 智慧水質檢測設備，桌上型、掌上型、筆型完整產品線；支援 pH/mV/ORP、導電度/鹽度/電阻率、溶氧等多參數。下載規格比較，快速選型，從實驗室到現場一次搞定。",
+    "DLAB 智慧水質檢測儀，桌上型、掌上型、筆型完整產品線；支援 pH/mV/ORP、導電度/鹽度/電阻率、溶氧等多參數。下載規格比較，快速選型，從實驗室到現場一次搞定。",
   alternates: {
     canonical: "/hotcategory/DLAB-water-analysis/",
   },
@@ -40,7 +40,7 @@ export const metadata: Metadata = {
     url: "https://dgs.com.tw/hotcategory/DLAB-water-analysis/",
     title: "DLAB智慧水質檢測系列｜德記儀器 — 實驗室到現場一次搞定",
     description:
-      "DLAB 智慧水質檢測設備，桌上型、掌上型、筆型完整產品線；支援 pH/mV/ORP、導電度/鹽度/電阻率、溶氧等多參數。下載規格比較，快速選型，從實驗室到現場一次搞定。",
+      "DLAB 智慧水質檢測儀，桌上型、掌上型、筆型完整產品線；支援 pH/mV/ORP、導電度/鹽度/電阻率、溶氧等多參數。下載規格比較，快速選型，從實驗室到現場一次搞定。",
     images: [
       {
         url: "https://dgs.com.tw/pic/00/01/40/02-5b9dc4259919f916.jpg",
@@ -54,7 +54,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "DLAB智慧水質檢測系列｜德記儀器 — 實驗室到現場一次搞定",
     description:
-      "DLAB 智慧水質檢測設備，桌上型、掌上型、筆型完整產品線；支援 pH/mV/ORP、導電度/鹽度/電阻率、溶氧等多參數。下載規格比較，快速選型，從實驗室到現場一次搞定。",
+      "DLAB 智慧水質檢測儀，桌上型、掌上型、筆型完整產品線；支援 pH/mV/ORP、導電度/鹽度/電阻率、溶氧等多參數。下載規格比較，快速選型，從實驗室到現場一次搞定。",
     images: ["https://dgs.com.tw/pic/00/01/40/02-5b9dc4259919f916.jpg"],
   },
   icons: {

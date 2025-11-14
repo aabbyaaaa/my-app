@@ -25,7 +25,7 @@ function HeroSection02() {
                 掌上型
               </h2>
               <h2 className="text-5xl sm:text-[2.4rem] md:text-[64px] lg:text-7xl max-w-lg tracking-tighter text-center sm:text-left font-medium" style={{ color: '#A979B2' }}>
-                水質檢測設備
+                水質檢測儀
               </h2>
               <p className="text-3xl leading-relaxed tracking-tight max-w-md text-center sm:text-left" style={{ color: '#925E9B' }}>
                 Portable Testers
@@ -47,7 +47,7 @@ function HeroSection02() {
             >
               <img
                 src="/Portable pHCondDO meter01.png"
-                alt="掌上型水質檢測設備 1"
+                alt="掌上型水質檢測儀 1"
                 className="w-full h-full object-cover rounded-md"
               />
             </GlareHover>
@@ -64,7 +64,7 @@ function HeroSection02() {
             >
               <img
                 src="/Portable pHCondDO meter02.png"
-                alt="掌上型水質檢測設備 2"
+                alt="掌上型水質檢儀 2"
                 className="w-full h-full object-cover rounded-md"
               />
             </GlareHover>
@@ -81,7 +81,7 @@ function HeroSection02() {
             >
               <img
                 src="/Portable pHCondDO meter03.png"
-                alt="掌上型水質檢測設備 3"
+                alt="掌上型水質檢測儀 3"
                 className="w-full h-full object-cover rounded-md"
               />
             </GlareHover>

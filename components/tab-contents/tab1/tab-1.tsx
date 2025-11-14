@@ -192,7 +192,7 @@ export function Tab1Content() {
           </GradientText>
         </h3>
         <h3 className="text-3xl font-bold mt-8 text-gray-700">
-          桌上型 水質檢測設備
+          桌上型 水質檢測儀
         </h3>
       </div>
 
@@ -498,7 +498,7 @@ export function Tab1Content() {
           </GradientText>
         </h3>
         <h3 className="text-3xl font-bold mt-8 text-gray-700">
-          桌上型 水質檢測設備
+          桌上型 水質檢測儀
         </h3>
       </div>
 

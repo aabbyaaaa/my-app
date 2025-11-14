@@ -9,7 +9,7 @@ const Csstimeline01: React.FC = () => {
 
   return (
     <div className={styles.root}>
-      <h2 className={styles.title}>5 步驟搞懂桌上型水質檢測設備：實驗室標準流程</h2>
+      <h2 className={styles.title}>5 步驟搞懂桌上型水質檢測儀：實驗室標準流程</h2>
       <p className={styles.note}>
         本篇適用於實驗室日常水質測量，內容涵蓋儀器安裝、pH 標準液校準、<strong>自動穩定功能</strong>、<strong>Auto timing</strong> 記錄器的間隔設定，以及隨身碟/PC 的資料導出。
       </p>

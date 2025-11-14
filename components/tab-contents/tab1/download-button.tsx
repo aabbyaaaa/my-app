@@ -8,7 +8,7 @@ const DownloadButton = () => {
     // 創建一個隱藏的 <a> 元素來觸發下載
     const link = document.createElement('a');
     link.href = '/DLAB水質產品DM.pdf';
-    link.download = 'DLAB水質檢測設備規格比較.pdf';
+    link.download = 'DLAB水質檢測儀規格比較.pdf';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);

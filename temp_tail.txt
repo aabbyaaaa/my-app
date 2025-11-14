@@ -80,7 +80,7 @@
       {/* 單參數產品表格 */}
       <ProductSpecsTable
         title="單參數"
-        subtitle="掌上型 水質檢測設備"
+        subtitle="掌上型 水質檢測儀"
         description="專業檢測，精準穩定更可靠"
         products={singleParamProducts}
       />
@@ -88,7 +88,7 @@
       {/* 多參數產品表格 */}
       <ProductSpecsTable
         title="多參數"
-        subtitle="掌上型 水質檢測設備"
+        subtitle="掌上型 水質檢測儀"
         description="多合一分析，滿足全方位水質需求"
         
       <Csstimeline02 />

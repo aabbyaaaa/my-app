@@ -283,7 +283,7 @@ export default function Home() {
               const doc = {
                 "@context": "https://schema.org",
                 "@type": "DigitalDocument",
-                name: "DLAB水質檢測設備規格比較",
+                name: "DLAB水質檢測儀規格比較",
                 fileFormat: "application/pdf",
                 url: `${SITE_URL}/DLAB水質產品DM.pdf`,
               };
@@ -312,7 +312,7 @@ export default function Home() {
                 "@type": "WebPage",
                 name: "DLAB智慧水質檢測系列｜德記儀器 — 實驗室到現場一次搞定",
                 description:
-                  "DLAB 智慧水質檢測設備，桌上型、掌上型、筆型完整產品線；支援 pH/mV/ORP、導電度/鹽度/電阻率、溶氧等多參數。下載規格比較，快速選型，從實驗室到現場一次搞定。",
+                  "DLAB 智慧水質檢測儀，桌上型、掌上型、筆型完整產品線；支援 pH/mV/ORP、導電度/鹽度/電阻率、溶氧等多參數。下載規格比較，快速選型，從實驗室到現場一次搞定。",
                 inLanguage: "zh-Hant",
                 url: canonical,
                 isPartOf: { "@id": `${SITE_URL}#organization` },

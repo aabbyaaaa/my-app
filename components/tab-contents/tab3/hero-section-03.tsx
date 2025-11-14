@@ -40,7 +40,7 @@ export default function HeroSection03() {
                 className="text-5xl sm:text-[2.4rem] md:text-[64px] lg:text-7xl max-w-lg tracking-tighter text-center sm:text-left font-medium"
                 style={{ color: '#D2C85E' }}
               >
-                水質檢測設備
+                水質檢測儀
               </h2>
               <p
                 className="text-3xl leading-relaxed tracking-tight max-w-md text-center sm:text-left"
@@ -64,7 +64,7 @@ export default function HeroSection03() {
             >
               <img
                 src="/pocket_all.png"
-                alt="筆型水質檢測設備"
+                alt="筆型水質檢測儀"
                 className="w-full h-full object-contain rounded-md"
               />
             </GlareHover>

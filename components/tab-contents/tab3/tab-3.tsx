@@ -88,7 +88,7 @@ export function Tab3Content() {
       {/* 一般型產品表格 */}
       <ProductSpecsTable
         title="一般型"
-        subtitle="筆型 水質檢測設備"
+        subtitle="筆型 水質檢測儀"
         description="穩定可靠，檢測隨時可得"
         products={regularProducts}
         gradientColors={["#B8A948", "#D2C85E", "#E6E07E", "#D2C85E", "#B8A948"]}
@@ -98,7 +98,7 @@ export function Tab3Content() {
       {/* 藍芽型產品表格 */}
       <ProductSpecsTable
         title="藍牙型"
-        subtitle="筆型 水質檢測設備"
+        subtitle="筆型 水質檢測儀"
         description="智慧連線，數據盡在掌握"
         extraDescription={<BluetoothFeatureCard />}
         products={bluetoothProducts}

@@ -116,7 +116,7 @@ const Csstimeline02: React.FC = () => {
           />
           <div className={styles.relative}>
             <label className={styles.label} htmlFor={`work1-${uid}`}>
-              水質檢測儀充電與進階解析度調整
+              掌上型水質檢測儀充電與進階解析度調整
             </label>
             <span className={styles.date}>步驟 5</span>
             <span className={styles.circle}></span>

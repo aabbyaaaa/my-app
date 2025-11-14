@@ -42,7 +42,7 @@ export default function HeroSection() {
         </div>
 
         <h5 className="text-4xl md:text-7xl font-medium max-w-[850px] text-center" style={{ color: '#58629D' }}>
-          桌上型水質檢測設備
+          桌上型水質檢測儀
         </h5>
 
         <h5 className="text-3xl md:text-5xl font-medium max-w-[850px] text-center mt-4" style={{ color: '#58629D' }}>
