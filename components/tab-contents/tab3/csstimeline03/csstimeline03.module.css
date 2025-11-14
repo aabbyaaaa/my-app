@@ -1,16 +1,18 @@
-/* copied from tab1 csstimeline01.module.css without changes */
 .root {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 5% 5%;
+  padding: 0.5% 5% 5% 5%;
   font-size: 100%;
-  color: #fff;
-  background: #925e9b;
+  color: #2E3458;
+  background: #D2C85E;
+  margin-top:40px;
+  border-radius:20px;
 }
 
 .title {
   margin: 3em 0 0 0;
-  font-size: 1.5em;
+  font-size: 2em;
+  font-weight:700;
   letter-spacing: 2px;
   text-transform: uppercase;
 }
@@ -24,7 +26,7 @@
   list-style: none;
   margin: 50px 0 30px 120px;
   padding-left: 30px;
-  border-left: 8px solid #fff;
+  border-left: 8px solid #2E3458;
 }
 
 .timeline li {
@@ -51,8 +53,8 @@
   left: -44px;
   width: 10px;
   height: 10px;
-  background: #925e9b;
-  border: 5px solid #fff;
+  background: #D2C85E;
+  border: 5px solid #2E3458;
   border-radius: 50%;
   display: block;
   position: absolute;
@@ -87,7 +89,7 @@
 }
 
 .content:after {
-  border-right-color: #925e9b;
+  border-right-color: #D2C85E;
   border-width: 17px;
   top: 50%;
   margin-top: -17px;
@@ -130,7 +132,7 @@
 
 .radio:checked ~ .content {
   max-height: none; /* allow full content height on desktop/tablet */
-  border-color: #fff;
+  border-color: #2E3458;
   margin-right: 20px;
   transform: translateX(20px);
   transition: border-color 0.5s linear, transform 0.2s linear;
@@ -138,7 +140,7 @@
 
 .radio:checked ~ .content p {
   max-height: none; /* allow full text height on desktop/tablet */
-  color: #fff;
+  color: #2E3458;
   transition: color 0.3s linear 0.3s;
 }
 
@@ -148,7 +150,7 @@
   display: block;
   width: 200px;
   height: 2px;
-  background: #fff;
+  background: #2E3458;
   border-radius: 2px;
   margin: 0 0 12px 0; /* left aligned */
   opacity: 0;
@@ -184,7 +186,7 @@
 
   .content {
     padding-top: 45px;
-    border-color: #fff;
+    border-color: #2E3458;
   }
 
   .content:before,
@@ -202,7 +204,7 @@
   }
 
   .content:after {
-    border-bottom-color: #925e9b;
+    border-bottom-color: #D2C85E;
     border-width: 20px;
     top: -20px;
     left: 50px;
@@ -233,6 +235,16 @@
   .radio:checked ~ .content p {
     max-height: none;
   }
+
+  .title {
+  margin: 3em 0 0 0;
+  font-size: 1.5em;
+  font-weight:600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.note {
+  font-size: 0.85em;
 }
 
-
+}

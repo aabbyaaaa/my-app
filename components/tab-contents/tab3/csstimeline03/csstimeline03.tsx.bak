@@ -1,17 +1,17 @@
 "use client";
 
 import React from "react";
-import styles from "./csstimeline01.module.css";
+import styles from "./csstimeline03.module.css";
 
-const Csstimeline01: React.FC = () => {
+const Csstimeline03: React.FC = () => {
   const uid = React.useId().replace(/:/g, "");
   const group = `works-${uid}`;
 
   return (
     <div className={styles.root}>
-      <h2 className={styles.title}>5 步驟搞懂桌上型水質檢測設備：實驗室標準流程</h2>
+      <h2 className={styles.title}>5 �B�J�d����W�������˴��]�ơG����ǼзǬy�{</h2>
       <p className={styles.note}>
-        本篇適用於實驗室日常水質測量，內容涵蓋儀器安裝、pH 標準液校準、<strong>自動穩定功能</strong>、<strong>Auto timing</strong> 記錄器的間隔設定，以及隨身碟/PC 的資料導出。
+        ���g�A�Ω����Ǥ�`������q�A���e�[�\\�����w�ˡBpH �зǲG�շǡB<strong>�۰�í�w�\\��</strong>�B<strong>Auto timing</strong> �O���������j�]�w�A�H���H����/PC ����ƾɥX�C
       </p>
       <ul className={styles.timeline}>
         <li className="work">
@@ -24,16 +24,16 @@ const Csstimeline01: React.FC = () => {
           />
           <div className={styles.relative}>
             <label className={styles.label} htmlFor={`work5-${uid}`}>
-              儀器設置與探頭連接
+              �����]�m�P���Y�s��
             </label>
-            <span className={styles.date}>步驟 1</span>
+            <span className={styles.date}>�B�J 1</span>
             <span className={styles.circle}></span>
           </div>
           <div className={styles.content}>
             <p>
-              1. 確認探頭（如 BNC 探頭、溫度/電導度探頭）已正確連接。<br />
-              2. 長按儀器上的電源鍵啟動設備。<br />
-              3. 使用參數選擇鍵切換至您所需的測量模式（如 pH、電導度或 DO）。
+              1. �T�{���Y�]�p BNC ���Y�B�ū�/�q�ɫױ��Y�^�w���T�s���C<br />
+              2. ���������W���q����Ұʳ]�ơC<br />
+              3. �ϥΰѼƿ��������ܱz�һݪ����q�Ҧ��]�p pH�B�q�ɫש� DO�^�C
             </p>
           </div>
         </li>
@@ -47,16 +47,16 @@ const Csstimeline01: React.FC = () => {
           />
           <div className={styles.relative}>
             <label className={styles.label} htmlFor={`work4-${uid}`}>
-              執行 pH 自動校準
+              ���� pH �۰ʮշ�
             </label>
-            <span className={styles.date}>步驟 2</span>
+            <span className={styles.date}>�B�J 2</span>
             <span className={styles.circle}></span>
           </div>
           <div className={styles.content}>
             <p>
-              1. 按下 CAL 鍵進入校準模式。<br />
-              2. 儀器支援 1~3 點自動校準。請依序將探頭浸入標準緩衝溶液中。<br />
-              3. 等待讀數穩定後，按下 Start/Enter 鍵確認並儲存校準點。
+              1. ���U CAL ��i�J�շǼҦ��C<br />
+              2. �����䴩 1~3 �I�۰ʮշǡC�Ш̧ǱN���Y���J�зǽw�ķ��G���C<br />
+              3. ����Ū��í�w��A���U Start/Enter ��T�{���x�s�շ��I�C
             </p>
           </div>
         </li>
@@ -70,16 +70,16 @@ const Csstimeline01: React.FC = () => {
           />
           <div className={styles.relative}>
             <label className={styles.label} htmlFor={`work3-${uid}`}>
-              測量與讀數鎖定
+              ���q�PŪ����w
             </label>
-            <span className={styles.date}>步驟 3</span>
+            <span className={styles.date}>�B�J 3</span>
             <span className={styles.circle}></span>
           </div>
           <div className={styles.content}>
             <p>
-              1. 將探頭浸入待測水樣中，儀器會開始測量。<br />
-              2. 讀數穩定後，按下數據鎖定鍵，即可手動鎖定當前的測量數據。<br />
-              3. 數據鎖定有助於在環境波動時，精準記錄數值。
+              1. �N���Y���J�ݴ����ˤ��A�����|�}�l���q�C<br />
+              2. Ū��í�w��A���U�ƾ���w��A�Y�i�����w���e�����q�ƾڡC<br />
+              3. �ƾ���w���U��b���Ҫi�ʮɡA��ǰO���ƭȡC
             </p>
           </div>
         </li>
@@ -93,16 +93,16 @@ const Csstimeline01: React.FC = () => {
           />
           <div className={styles.relative}>
             <label className={styles.label} htmlFor={`work2-${uid}`}>
-              啟用定時數據記錄器
+              �ҥΩw�ɼƾڰO����
             </label>
-            <span className={styles.date}>步驟 4</span>
+            <span className={styles.date}>�B�J 4</span>
             <span className={styles.circle}></span>
           </div>
           <div className={styles.content}>
             <p>
-              1. 儀器具備智能功能，包含自動定時數據記錄器 (Auto. timing data logger)。<br />
-              2. 進入參數設定，啟用此功能並設定記錄間隔。<br />
-              3. 之後可透過特定按鍵查看儲存的數據（包括編號、參數、數值、日期和時間）。
+              1. ������ƴ���\\��A�]�t�۰ʩw�ɼƾڰO���� (Auto. timing data logger)�C<br />
+              2. �i�J�ѼƳ]�w�A�ҥΦ��\\��ó]�w�O�����j�C<br />
+              3. ����i�z�L�S�w����d���x�s���ƾڡ]�]�A�s���B�ѼơB�ƭȡB����M�ɶ��^�C
             </p>
           </div>
         </li>
@@ -116,15 +116,15 @@ const Csstimeline01: React.FC = () => {
           />
           <div className={styles.relative}>
             <label className={styles.label} htmlFor={`work1-${uid}`}>
-              將數據導出至外部設備
+              �N�ƾھɥX�ܥ~���]��
             </label>
-            <span className={styles.date}>步驟 5</span>
+            <span className={styles.date}>�B�J 5</span>
             <span className={styles.circle}></span>
           </div>
           <div className={styles.content}>
             <p>
-              1. 儀器使用可充電鋰電池。請透過 Type-C 充電插座充電，此規格符合歐洲新規範要求。<br />
-              2. 進階提示： 在 pH 模式下，長按參數設定鍵可將 pH 解析度調整為0.1/0.01/0.001。
+              1. �����ϥΥi�R�q�Y�q���C�гz�L Type-C �R�q���y�R�q�A���W��ŦX�ڬw�s�W�d�n�D�C<br />
+              2. �i�����ܡG �b pH �Ҧ��U�A�����ѼƳ]�w��i�N pH �ѪR�׽վ㬰0.1/0.01/0.001�C
             </p>
           </div>
         </li>
@@ -133,5 +133,6 @@ const Csstimeline01: React.FC = () => {
   );
 };
 
-export default Csstimeline01;
+export default Csstimeline03;
+
 

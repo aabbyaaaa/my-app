@@ -1,27 +1,4 @@
-import HeroSection02 from "@/components/tab-contents/tab2/hero-section-02";
-import { FeatureWithAdvantages } from "@/components/tab-contents/tab2/feature-with-advantages";
-import ProductSpecsTable, { type Product } from "@/components/tab-contents/tab2/product-specs-table";
-import ProductMiniCard from "@/components/tab-contents/tab2/product-mini-card";
-import Csstimeline02 from "@/components/tab-contents/tab2/csstimeline02/csstimeline02";
-
-export function Tab2Content() {
-  // 單參數產品列表
-  const singleParamProducts: Product[] = [
-    {
-      name: "DPH10",
-      model: "DPH10",
-      partNumber: "AWE-4090010100",
-      imageUrl: "https://dgs.com.tw/pic/00/01/27/74-9e0227ef00b35434-w600h600.jpg",
-      productUrl: "https://dgs.com.tw/product/headCode/AWE-4090010100",
-      specs: { phMv: true, orp: true, cond: false, do: false }
-    },
-    {
-      name: "DORP10",
-      model: "DORP10",
-      partNumber: "AWE-4090010101",
-      imageUrl: "https://dgs.com.tw/pic/00/01/37/97-e1f59ccf3adfc9ad.jpg",
-      productUrl: "https://dgs.com.tw/product/headCode/AWE-4090010101",
-      specs: { phMv: false, orp: true, cond: false, do: false }
+ { phMv: false, orp: true, cond: false, do: false }
     },
     {
       name: "DEC10",
@@ -34,7 +11,7 @@ export function Tab2Content() {
     {
       name: "DDO10",
       model: "DDO10",
-      modelSub: "溶氧測定",
+      modelSub: "極譜式電極",
       partNumber: "AWE-4090010103",
       imageUrl: "https://dgs.com.tw/pic/00/01/27/78-4b0196207a537847-w600h600.jpg",
       productUrl: "https://dgs.com.tw/product/headCode/AWE-4090010103",
@@ -43,7 +20,7 @@ export function Tab2Content() {
     {
       name: "DDOPRO10",
       model: "DDOPRO10",
-      modelSub: "專業溶氧",
+      modelSub: "光學式電極",
       partNumber: "AWE-4090010104",
       imageUrl: "https://dgs.com.tw/pic/00/01/27/80-19ecc7a6ffaec6fd-w600h600.jpg",
       productUrl: "https://dgs.com.tw/product/headCode/AWE-4090010104",
@@ -51,7 +28,7 @@ export function Tab2Content() {
     }
   ];
 
-  // 多參數產品列表
+  // 多參數產品資料
   const multiParamProducts: Product[] = [
     {
       name: "DPC10",
@@ -100,25 +77,23 @@ export function Tab2Content() {
       <HeroSection02 />
       <FeatureWithAdvantages />
 
-      {/* 單參數型號列表 */}
+      {/* 單參數產品表格 */}
       <ProductSpecsTable
         title="單參數"
-        subtitle="桌上型 水質檢測儀"
-        description="專業檢測，穩定易上手"
+        subtitle="掌上型 水質檢測設備"
+        description="專業檢測，精準穩定更可靠"
         products={singleParamProducts}
       />
 
-      {/* 多參數型號列表 */}
+      {/* 多參數產品表格 */}
       <ProductSpecsTable
         title="多參數"
-        subtitle="桌上型 水質檢測儀"
+        subtitle="掌上型 水質檢測設備"
         description="多合一分析，滿足全方位水質需求"
-        products={multiParamProducts}
-      />
-
+        
       <Csstimeline02 />
 
-    </div>
+
   );
 }
 

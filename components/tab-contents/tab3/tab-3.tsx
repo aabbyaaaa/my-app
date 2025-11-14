@@ -2,6 +2,7 @@ import HeroSection03 from "@/components/tab-contents/tab3/hero-section-03";
 import { FeatureWithAdvantages } from "@/components/tab-contents/tab3/feature-with-advantages";
 import ProductSpecsTable, { type Product } from "@/components/tab-contents/tab2/product-specs-table";
 import { BluetoothFeatureCard } from "@/components/tab-contents/tab3/bluetooth-feature-card";
+import Csstimeline03 from "@/components/tab-contents/tab3/csstimeline03/csstimeline03";
 
 export function Tab3Content() {
   // 一般型筆型產品資料（4 款）
@@ -104,6 +105,7 @@ export function Tab3Content() {
         gradientColors={["#B8A948", "#D2C85E", "#E6E07E", "#D2C85E", "#B8A948"]}
         primaryColor="#D2C85E"
       />
+      <Csstimeline03 />
     </div>
   );
 }
