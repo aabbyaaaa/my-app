@@ -6,6 +6,8 @@ import { AnimatedTabs01 } from "@/components/tab-contents/tab1/animated-tabs-01"
 import { AnimatedTabs02 } from "@/components/animated-tabs-02";
 import HeroSection from "@/components/tab-contents/tab1/hero-section-01";
 import { GradientText } from "@/components/ui/gradient-text";
+import HowItWorks11 from "@/components/tab-contents/tab1/howto-1";
+import Csstimeline01 from "@/components/tab-contents/tab1/csstimeline01/csstimeline01";
 
 
 export function Tab1Content() {
@@ -789,7 +791,8 @@ export function Tab1Content() {
       />
     </div>
 
-      {/* 下載按鈕區域 */}
-    
+  
+  <Csstimeline01 />
+
   </>);
 }
