@@ -11,7 +11,7 @@ const Csstimeline03: React.FC = () => {
     <div className={styles.root}>
       <h2 className={styles.title}>這樣用最準！筆型水質檢測儀 5 步驟完整教學</h2>
       <p className={styles.note}>
-        若你想確保水質量測結果更穩定，本篇教你如何依循五大步驽完成完整操作，包括儀器啟動、模式切換、三點 pH 校準、手動/自動鎖定讀數，以及藍牙連線使用技巧。非常適合實驗室、戶外採樣與水質管理使用者。
+        若你想確保水質量測結果更穩定，本篇教你如何依循五大步驟完成完整操作，包括儀器啟動、模式切換、三點 pH 校準、手動/自動鎖定讀數，以及藍牙連線使用技巧。非常適合實驗室、戶外採樣與水質管理使用者。
       </p>
       <ul className={styles.timeline}>
         <li className="work">

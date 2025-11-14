@@ -323,12 +323,204 @@ export default function Home() {
                 },
               } as const;
 
+              // HowTo: Tab1 桌上型
+              const howtoBench = {
+                "@context": "https://schema.org",
+                "@type": "HowTo",
+                name: "5 步驟搞懂桌上型水質檢測儀：實驗室標準流程",
+                description:
+                  "本篇適用於實驗室日常水質測量，內容涵蓋儀器安裝、pH 標準液校準、自動穩定功能、Auto timing 記錄器的間隔設定，以及隨身碟/PC 的資料導出。",
+                inLanguage: "zh-Hant",
+                url: `${canonical}#howto-bench`,
+                step: [
+                  {
+                    "@type": "HowToStep",
+                    name: "桌上型水質檢測儀設置與探頭連接",
+                    text:
+                      "1、連接電源： 將電源供應器連接至水質檢測儀（電源供應規格為 DC 12V）。\n" +
+                      "2、連接探頭： 將玻璃複合 pH 探頭（如 DPH-G）和不鏽鋼溫度探頭（DTEMP）連接到水質檢測儀後方。\n" +
+                      "3、準備配件： 對於觸控螢幕機型，建議使用隨附的磁力攪拌器和靈活探頭支架進行測量。",
+                  },
+                  {
+                    "@type": "HowToStep",
+                    name: "執行 pH 自動校準",
+                    text:
+                      "1、進入校準模式： 透過水質檢測儀的使用者介面或按鍵進入校準（CAL）功能。\n" +
+                      "2、多點校準： DLAB 水質檢測儀支援 1~5點的 pH 自動校準(觸控型), 或1~3點(標準型)。選擇您所需的校準點數。\n" +
+                      "3、依序校準： 將 pH 探頭依序浸入標準緩衝溶液中（例如 pH 4.00/7.00/10.01）。\n" +
+                      "4、確認儲存： 水質檢測儀會自動等待讀數穩定；一旦穩定，按下確認鍵或螢幕按鈕，儲存該校準點。\n" +
+                      "提示： 水質檢測儀具備自動溫度補償（ATC）功能，能自動校正溫度對 pH 測量的影響。",
+                  },
+                  {
+                    "@type": "HowToStep",
+                    name: "測量與讀數鎖定",
+                    text:
+                      "1、開始測量： 將探頭浸入待測水樣中，若使用觸控螢幕機型，可實現 pH/Cond/DO 同時顯示。\n" +
+                      "2、等待穩定： 水質檢測儀會提供自動讀數穩定指示，請等待指示出現，確保數據穩定。\n" +
+                      "3、記錄讀數： 讀數穩定後，即可記錄或將其納入數據記錄器中。",
+                  },
+                  {
+                    "@type": "HowToStep",
+                    name: "啟用定時數據記錄器",
+                    text:
+                      "1、進入設定： 透過圖形和文字的使用者介面，進入智能功能選單或參數設定。\n" +
+                      "2、啟用記錄器： 選擇並開啟 Auto. timing data logger（定時數據記錄器）功能。\n" +
+                      "3、設定間隔： 根據您的需求設定記錄間隔，水質檢測儀將按時自動儲存數據，包括參數、值、溫度、日期和時間。\n" +
+                      "儲存容量： 觸控螢幕系列水質檢測儀可儲存 500 組讀數/參數；標準型系列水質檢測儀可儲存 450 組讀數。",
+                  },
+                  {
+                    "@type": "HowToStep",
+                    name: "將數據導出至外部設備",
+                    text:
+                      "1、選擇導出介質： 進入水質檢測儀的數據管理或導出菜單。\n" +
+                      "2、數據傳輸： 您可以選擇將數據導出至 Flash disk（隨身碟）或透過 PC cable 連接至電腦。\n" +
+                      "3、選配印表機： DLAB 水質檢測儀亦支援連接無線印表機（Wireless printer）（選配）進行即時列印報告。",
+                  },
+                ],
+                supply: [
+                  { "@type": "HowToSupply", name: "pH 緩衝液（4.00/7.00/10.01）" },
+                  { "@type": "HowToSupply", name: "蒸餾水" },
+                  { "@type": "HowToSupply", name: "擦拭布/紙巾" },
+                ],
+                tool: [
+                  { "@type": "HowToTool", name: "DLAB 桌上型水質檢測儀" },
+                  { "@type": "HowToTool", name: "玻璃杯/燒杯" },
+                  { "@type": "HowToTool", name: "Type‑C 充電線" },
+                ],
+              };
+
+              // HowTo: Tab2 掌上型
+              const howtoHandheld = {
+                "@context": "https://schema.org",
+                "@type": "HowTo",
+                name: "掌上型水質檢測儀怎麼用？5 大步驟從啟動到高階解析度調整一次掌握",
+                description:
+                  "從儀器開機、切換測量模式、執行多點 pH 校準，到現場測量數據鎖定與定時記錄器啟用，全流程簡單明瞭。文章也會說明 Type-C 充電方式與 0.001 解析度的 pH 高精度模式，是戶外採樣與環境監測的最佳教學指南。",
+                inLanguage: "zh-Hant",
+                url: `${canonical}#howto-handheld`,
+                step: [
+                  {
+                    "@type": "HowToStep",
+                    name: "啟動掌上型水質檢測儀與選擇測量參數",
+                    text:
+                      "1、確認探頭（如 BNC 探頭、溫度/電導度探頭）已正確連接。\n" +
+                      "2、長按水質檢測儀上的電源鍵啟動設備。\n" +
+                      "3、使用參數選擇鍵切換至您所需的測量模式（如 pH、電導度或 DO）。",
+                  },
+                  {
+                    "@type": "HowToStep",
+                    name: "執行 pH 自動校準",
+                    text:
+                      "1、按下 CAL 鍵進入校準模式。\n" +
+                      "2、水質檢測儀支援 1~3 點自動校準。請依序將探頭浸入標準緩衝溶液中。\n" +
+                      "3、等待讀數穩定後，按下 Start/Enter 鍵確認並儲存校準點。",
+                  },
+                  {
+                    "@type": "HowToStep",
+                    name: "測量與讀數鎖定",
+                    text:
+                      "1、將探頭浸入待測水樣中，水質檢測儀會開始測量。\n" +
+                      "2、讀數穩定後，按下數據鎖定鍵，即可手動鎖定當前的測量數據。\n" +
+                      "3、數據鎖定有助於在環境波動時，精準記錄數值。",
+                  },
+                  {
+                    "@type": "HowToStep",
+                    name: "啟用智能定時數據記錄",
+                    text:
+                      "1、水質檢測儀具備智能功能，包含自動定時數據記錄器 (Auto. timing data logger)。\n" +
+                      "2、進入參數設定，啟用此功能並設定記錄間隔。\n" +
+                      "3、之後可透過特定按鍵查看儲存的數據（包括編號、參數、數值、日期和時間）。",
+                  },
+                  {
+                    "@type": "HowToStep",
+                    name: "掌上型水質檢測儀充電與進階解析度調整",
+                    text:
+                      "1、水質檢測儀使用可充電鋰電池。請透過 Type-C 充電插座充電，此規格符合歐洲新規範要求。\n" +
+                      "2、進階提示： 在 pH 模式下，長按參數設定鍵可將 pH 解析度調整為 0.1/0.01/0.001。",
+                  },
+                ],
+                supply: [
+                  { "@type": "HowToSupply", name: "pH 緩衝液（4.00/7.00/10.01）" },
+                  { "@type": "HowToSupply", name: "蒸餾水" },
+                  { "@type": "HowToSupply", name: "擦拭布/紙巾" },
+                ],
+                tool: [
+                  { "@type": "HowToTool", name: "DLAB 掌上型水質檢測儀" },
+                  { "@type": "HowToTool", name: "玻璃杯/燒杯" },
+                  { "@type": "HowToTool", name: "Type‑C 充電線" },
+                ],
+              };
+
+              // HowTo: Tab3 筆型
+              const howtoPen = {
+                "@context": "https://schema.org",
+                "@type": "HowTo",
+                name: "這樣用最準！筆型水質檢測儀 5 步驟完整教學",
+                description:
+                  "若你想確保水質量測結果更穩定，本篇教你如何依循五大步驟完成完整操作，包括儀器啟動、模式切換、三點 pH 校準、手動/自動鎖定讀數，以及藍牙連線使用技巧。非常適合實驗室、戶外採樣與水質管理使用者。",
+                inLanguage: "zh-Hant",
+                url: `${canonical}#howto-pen`,
+                step: [
+                  {
+                    "@type": "HowToStep",
+                    name: "筆型水質檢測儀啟動與電池狀態檢查",
+                    text:
+                      "1、開啟水質檢測儀： 當水質檢測儀處於關閉狀態時，短按電源鍵（Power key）即可啟動測試筆。\n" +
+                      "2、電源確認： 筆型水質檢測儀使用 4×1.5V AAA 鹼性電池。水質檢測儀具備低電壓指示功能，若偵測到電壓低，請及時更換電池，確保現場測試的穩定性。",
+                  },
+                  {
+                    "@type": "HowToStep",
+                    name: "快速切換參數與狀態識別",
+                    text:
+                      "1、切換參數： 短按 MODE 鍵即可在不同的測量參數間切換，涵蓋 pH、ORP、電導度等多種組合。\n" +
+                      "2、識別狀態： 水質檢測儀背光顏色具有狀態提示功能：白色=測量模式、綠色=校準模式、紅色=警報模式。",
+                  },
+                  {
+                    "@type": "HowToStep",
+                    name: "執行 pH 自動校準 (多點)",
+                    text:
+                      "1、進入校準模式： 長按 CAL/ENT 鍵即可進入校準模式。\n" +
+                      "2、選擇標準： 儀器提供 CH、USA、NIST 三種標準緩衝液可供選擇。請確保使用正確的標準液進行校準。\n" +
+                      "3、完成校準： 儀器支援 1~3 點自動校準。請根據螢幕提示依序將探頭浸入標準溶液中，並等待水質檢測儀完成讀數穩定和儲存。",
+                  },
+                  {
+                    "@type": "HowToStep",
+                    name: "手動鎖定測量讀數",
+                    text:
+                      "1、鎖定操作： 在測量模式下，短按 CAL/ENT 鍵即可手動鎖定（lock）或解鎖（unlock）當前的讀數。\n" +
+                      "2、自動鎖定： 水質檢測儀也具備讀數指示器功能，當讀數穩定時，會自動進行數據鎖定。",
+                  },
+                  {
+                    "@type": "HowToStep",
+                    name: "使用藍牙 APP 進行雙控與數據分享（藍牙系列）",
+                    text:
+                      "1、開啟藍牙： 長按 MODE 鍵即可開啟或關閉藍牙連接。\n" +
+                      "2、APP 雙控： 連接行動 APP 後，您將進入雙控模式，可在手機上管理水質檢測儀。\n" +
+                      "3、數據管理： 行動 APP 支援強大的數據儲存功能，並提供四種顯示模式：圖形（Graph mode）、表格（Table mode）、轉盤（Dial mode）和一般模式（General mode）。\n" +
+                      "4、分享數據： 您可以利用 APP 進行樣本 ID 分類 和測量資訊分享。",
+                  },
+                ],
+                supply: [
+                  { "@type": "HowToSupply", name: "pH 緩衝液（4.00/7.00/10.01）" },
+                  { "@type": "HowToSupply", name: "蒸餾水" },
+                  { "@type": "HowToSupply", name: "擦拭布/紙巾" },
+                ],
+                tool: [
+                  { "@type": "HowToTool", name: "DLAB 筆型水質檢測儀" },
+                  { "@type": "HowToTool", name: "玻璃杯/燒杯" },
+                  { "@type": "HowToTool", name: "4×1.5V AAA 鹼性電池" },
+                ],
+              };
+
               return [
                 { ...org, "@id": `${SITE_URL}#organization` },
                 webPage,
                 itemList,
                 doc,
                 breadcrumb,
+                howtoBench,
+                howtoHandheld,
+                howtoPen,
               ];
             })(),
             null,
