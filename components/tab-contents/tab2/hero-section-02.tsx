@@ -9,7 +9,7 @@ function HeroSection02() {
       <div
         className="container mx-auto"
         style={{
-          backgroundImage: "url('/bbblurry_pink.svg')",
+          backgroundImage: "url('./bbblurry_pink.svg')",
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           backgroundRepeat: 'no-repeat'
@@ -46,7 +46,7 @@ function HeroSection02() {
               className="aspect-square"
             >
               <img
-                src="/Portable pHCondDO meter01.png"
+                src="./Portable pHCondDO meter01.png"
                 alt="掌上型水質檢測儀 1"
                 className="w-full h-full object-cover rounded-md"
               />
@@ -63,7 +63,7 @@ function HeroSection02() {
               className="row-span-2"
             >
               <img
-                src="/Portable pHCondDO meter02.png"
+                src="./Portable pHCondDO meter02.png"
                 alt="掌上型水質檢儀 2"
                 className="w-full h-full object-cover rounded-md"
               />
@@ -80,7 +80,7 @@ function HeroSection02() {
               className="aspect-square"
             >
               <img
-                src="/Portable pHCondDO meter03.png"
+                src="./Portable pHCondDO meter03.png"
                 alt="掌上型水質檢測儀 3"
                 className="w-full h-full object-cover rounded-md"
               />

@@ -9,7 +9,7 @@ export default function HeroSection03() {
       <div
         className="container mx-auto"
         style={{
-          backgroundImage: "url('/bbblurry_yellow.svg')",
+          backgroundImage: "url('./bbblurry_yellow.svg')",
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           backgroundRepeat: 'no-repeat'
@@ -63,7 +63,7 @@ export default function HeroSection03() {
               transitionDuration={1500}
             >
               <img
-                src="/pocket_all.png"
+                src="./pocket_all.png"
                 alt="筆型水質檢測儀"
                 className="w-full h-full object-contain rounded-md"
               />

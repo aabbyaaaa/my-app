@@ -59,7 +59,7 @@ export function Header() {
 				)}
 			>
 				<a href="https://dgs.com.tw/" target="_blank" rel="noopener noreferrer">
-					<img src="/DGS_LOGO.png" alt="DGS Logo" className="h-8" />
+					<img src="./DGS_LOGO.png" alt="DGS Logo" className="h-8" />
 				</a>
 				<div className="hidden items-center gap-2 md:flex">
 					{links.map((link, i) => (

@@ -103,6 +103,7 @@ interface ChronicleButtonProps {
   customBackground?: string;
   customForeground?: string;
   hoverForeground?: string;
+  fontFamily?: string;
 }
 
 export const ChronicleButton: React.FC<ChronicleButtonProps> = ({
@@ -117,6 +118,7 @@ export const ChronicleButton: React.FC<ChronicleButtonProps> = ({
   customBackground = "#fff",
   customForeground = "#111014",
   hoverForeground = "#111014",
+  fontFamily = "inherit",
 }) => {
   // Inject styles once
   React.useEffect(() => {
@@ -139,6 +141,7 @@ export const ChronicleButton: React.FC<ChronicleButtonProps> = ({
     "--outlined-button-background-on-hover": outlinedButtonBackgroundOnHover,
     width: width,
     borderRadius: borderRadius,
+    fontFamily: fontFamily,
   } as React.CSSProperties;
 
   return (

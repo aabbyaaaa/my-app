@@ -11,7 +11,7 @@ const Csstimeline03: React.FC = () => {
     <div className={styles.root}>
       <h2 className={styles.title}>這樣用最準！筆型水質檢測儀 5 步驟完整教學</h2>
       <p className={styles.note}>
-        若你想確保水質量測結果更穩定，本篇教你如何依循五大步驟完成完整操作，包括儀器啟動、模式切換、三點 pH 校準、手動/自動鎖定讀數，以及藍牙連線使用技巧。非常適合實驗室、戶外採樣與水質管理使用者。
+        若你想確保水質量測結果更穩定，本篇教你如何依循五大步驟完成完整操作，包括儀器啟動、模式切換、三點 pH 校正、手動/自動鎖定讀數，以及藍牙連線使用技巧。非常適合實驗室、戶外採樣與水質管理使用者。
       </p>
       <ul className={styles.timeline}>
         <li className="work">
@@ -56,7 +56,7 @@ const Csstimeline03: React.FC = () => {
              1、切換參數： 短按 MODE 鍵即可在不同的測量參數間切換，涵蓋 pH、ORP、電導度等多種組合。<br />
              2、識別狀態： 水質檢測儀背光顏色具有狀態提示功能：<br />
     ◦ 白色：表示儀器處於測量模式。<br />
-    ◦ 綠色：表示儀器處於校準模式。<br />
+    ◦ 綠色：表示儀器處於校正模式。<br />
     ◦ 紅色：表示警報模式已啟動。
             </p>
           </div>
@@ -71,16 +71,16 @@ const Csstimeline03: React.FC = () => {
           />
           <div className={styles.relative}>
             <label className={styles.label} htmlFor={`work3-${uid}`}>
-              執行 pH 自動校準 (多點)
+              執行 pH 自動校正 (多點)
             </label>
             <span className={styles.date}>步驟 3</span>
             <span className={styles.circle}></span>
           </div>
           <div className={styles.content}>
             <p>
-              1、進入校準模式： 長按 CAL/ENT 鍵即可進入校準模式。<br />
-              2、選擇標準： 儀器提供 CH、USA、NIST 三種標準緩衝液可供選擇。請確保使用正確的標準液進行校準。<br />
-              3、完成校準： 儀器支援 1~3 點自動校準。請根據螢幕提示依序將探頭浸入標準溶液中，並等待水質檢測儀完成讀數穩定和儲存。
+              1、進入校正模式： 長按 CAL/ENT 鍵即可進入校正模式。<br />
+              2、選擇標準： 儀器提供 CH、USA、NIST 三種標準緩衝液可供選擇。請確保使用正確的標準液進行校正。<br />
+              3、完成校正： 儀器支援 1~3 點自動校正。請根據螢幕提示依序將電極浸入標準溶液中，並等待水質檢測儀完成讀數穩定和儲存。
             </p>
           </div>
         </li>

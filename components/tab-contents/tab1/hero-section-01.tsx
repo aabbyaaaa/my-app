@@ -33,7 +33,15 @@ export default function HeroSection() {
   }, [menuOpen]);
 
   return (
-    <section className="bg-[url('/bbblurry.svg')] w-full bg-no-repeat bg-cover bg-center text-sm flex flex-col items-center justify-center py-20">
+    <section
+      className="w-full text-sm flex flex-col items-center justify-center py-20 bg-no-repeat bg-cover bg-center"
+      style={{
+        backgroundImage: "url('./bbblurry.svg')",
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        backgroundRepeat: 'no-repeat',
+      }}
+    >
         <div className="flex items-center gap-2 border border-slate-300 hover:border-slate-400/70 rounded-full w-max px-4 py-2 mb-8">
           <span className="text-gray-800">智慧實驗室水質方案，精準穩定每一次測量</span>
           <button className="flex items-center gap-1 font-medium">

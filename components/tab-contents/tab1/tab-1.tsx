@@ -3,10 +3,8 @@
 import { useRef } from "react";
 import "./tab-1.css";
 import { AnimatedTabs01 } from "@/components/tab-contents/tab1/animated-tabs-01";
-import { AnimatedTabs02 } from "@/components/animated-tabs-02";
 import HeroSection from "@/components/tab-contents/tab1/hero-section-01";
 import { GradientText } from "@/components/ui/gradient-text";
-import HowItWorks11 from "@/components/tab-contents/tab1/howto-1";
 import Csstimeline01 from "@/components/tab-contents/tab1/csstimeline01/csstimeline01";
 
 
@@ -38,7 +36,8 @@ export function Tab1Content() {
       link: "https://dgs.com.tw/product/headCode/AWE-4090010200",
       buttonText: "標準款 Classical",
       showPopular: false,
-      color: "starter"
+      color: "starter",
+      popularText: "",
     },
     {
       id: "essential",
@@ -47,7 +46,8 @@ export function Tab1Content() {
       link: "https://dgs.com.tw/product/headCode/AWE-4090010203",
       buttonText: "觸控款 Touch Screen",
       showPopular: false,
-      color: "essential"
+      color: "essential",
+      popularText: "",
     }
   ];
 

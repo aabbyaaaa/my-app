@@ -1,7 +1,10 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  // Export as a fully static site to `out/`
+  output: "export",
+  // Make asset URLs relative so site works under a subpath
+  assetPrefix: '.',
   reactCompiler: true,
   compiler: {
     styledComponents: true,

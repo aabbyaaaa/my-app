@@ -13,7 +13,7 @@ export function Tab3Content() {
       partNumber: "AWE-4090010004",
       imageUrl: "https://dgs.com.tw/pic/00/01/27/66-651ad54dde074fc6-w600h600.jpg",
       productUrl: "https://dgs.com.tw/product/headCode/AWE-4090010004",
-      specs: { phMv: true, orp: true, cond: false, do: false }
+      specs: { phMv: true, orp: false, cond: false, do: false }
     },
     {
       name: "DORP1",
@@ -49,7 +49,7 @@ export function Tab3Content() {
       partNumber: "AWE-4090010000",
       imageUrl: "https://dgs.com.tw/pic/00/01/27/67-2ca5a275b4060996-w600h600.jpg",
       productUrl: "https://dgs.com.tw/product/headCode/AWE-4090010000",
-      specs: { phMv: true, orp: true, cond: true, do: false }
+      specs: { phMv: true, orp: false, cond: false, do: false }
     },
     {
       name: "DORP1+",
